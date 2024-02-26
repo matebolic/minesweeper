@@ -1,6 +1,7 @@
 # Minesweeper
 
-This is a solution what I build at Flow Academy's Junior Java Developer Course.
+This is a solution what I build at Flow Academy's Junior Java Developer Course. 
+The project kickoff was on 26th June 2023, and the presentation was on 12th July 2023.
 
 ## Table of contents
 
@@ -15,7 +16,6 @@ This is a solution what I build at Flow Academy's Junior Java Developer Course.
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,7 +25,7 @@ Minesweeper is a logic puzzle video game genre generally played on personal comp
 
 ### Gameplay
 
-In Minesweeper, hidden mines are scattered throughout a board, which is divided into cells. Cells have multiple possible states:
+In Minesweeper hidden mines are scattered throughout a board, which is divided into cells. Cells have multiple possible states:
 - Unopened tiles (cover the board at the start of the game, can also be made by removing flags, marked with '-')
 - Numbered tiles (can show 0-8: shows the number of mines are on the diagonal/adjacent to the tile)
 - Flagged tiles (appear after marking an unopened tile with 'F' - this is the sign of the Flag)
@@ -40,12 +40,12 @@ A player selects a cell to open it. Because the game has no unique UI, it uses t
 	- medium (16x16 board, 40 mines)
 	- hard (32x16 board, 50 mines)
 	- custom (custom board size with some predefined limitations - the maximum number of mines are limited according to the board area)
-	- continous display of the available number of flags - any uncovered cell can be marked and demarked later too
-	- it the player succeeds to uncover all the tiles except the mines, wins: the game calculates winning point according to the diffulcty of the game and the elapsed time
-	- cheat function: if the player writes "cheat" after a tile is selected, and hits the enter, the program will show all the mines, but just until the next input
-	- if the player wins with using cheat, then the program will print a message about this at the end of the game
-	- all the inputs are tested: if it is not appropriate as it may generate some exception, that it will return with a new message requiring a new input
-	- after finishing a game it offers a new one,the player can continue without restarting the program
+- continous display of the available number of flags - any uncovered cell can be marked and demarked later too
+- it the player succeeds to uncover all the tiles except the mines, wins: the game calculates winning point according to the diffulcty of the game and the elapsed time
+- cheat function: if the player writes "cheat" after a tile is selected, and hits the enter, the program will show all the mines, but just until the next input
+- if the player wins using cheat, then the program will print a message about this at the end of the game
+- all the inputs are tested: if it is not appropriate as it may generate some exception, that it will return with a new message requiring a new input
+- after finishing a game it offers a new one,the player can continue without restarting the program
 	
 ## The process
 
